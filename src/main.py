@@ -9,13 +9,13 @@ import part3_similar_actors_genre as sag
 # Call functions / instanciate objects from the .py files
 def main():
     # PART 1: Instanciate etl, saving the dataset in `./data/`
-    etl()
+    etl.etl()
 
     # PART 2: Call functions/instanciate objects for the network centrality analysis
-    nc()
+    nc.nc()
 
     # PART 3: Call functions/instanciate objects for similar actors by genre
-    sag()
+    sag.sag()
 
 if __name__ == "__main__":
     main()
